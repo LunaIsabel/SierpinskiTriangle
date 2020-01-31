@@ -1,6 +1,6 @@
 public void setup()
 {  
-  size(1500, 1500);
+  size(2000, 1500);
   background(0, 0, 0);
 }
 public void draw()
