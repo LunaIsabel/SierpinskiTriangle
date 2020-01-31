@@ -1,12 +1,15 @@
 public void setup()
-{
-  size(900, 900);
-    background(0);
+{  
+  size(1000, 1000);
+  background(0, 0, 0);
 }
 public void draw()
 {
-  sierpinski(100, 780, 700);
+  fill(0, 0, 0, 50);
+  rect((float)0, (float)0,(float)1000,  (float)1000);
+  sierpinski(mouseX - 350, mouseY + 350, 700);
 }
+
 
 public void sierpinski(int x, int y, int len) 
 {
