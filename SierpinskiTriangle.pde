@@ -5,7 +5,7 @@ public void setup()
 }
 public void draw()
 {
-  fill(0, 0, 0, 50);
+  fill(0, 0, 0, 30);
   rect((float)0, (float)0,(float)1000,  (float)1000);
   sierpinski(mouseX - 350, mouseY + 350, 700);
 }
