@@ -8,9 +8,6 @@ public void draw()
   fill(0, 0, 0, 40);
   rect(0, 0, 2000, 2000);
   sierpinski(mouseX - 350, mouseY + 350, 200);
-  sierpinski(mouseX + 150, mouseY - 150, 400);
-  sierpinski(mouseX + 250, mouseY - 250, 200);
-  sierpinski(mouseX + 50, mouseY - 50, 400);
 }
 
 
